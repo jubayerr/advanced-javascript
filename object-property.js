@@ -17,5 +17,6 @@ const students = [
 const names = students.map(s => s.name);
 const section = students.filter(s => s.id > 100)
 
+
 console.log(names);
 console.log(section);
